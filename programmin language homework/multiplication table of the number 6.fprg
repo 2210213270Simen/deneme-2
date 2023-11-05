@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 08:56:00 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzA4OjQ4OjQyIMOWUzsyODQy"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzA4OjU2OjAwIMOWUzsxOzI5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, k, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <while expression="a &lt;= 10">
+                <assign variable="k" expression="6 * a"/>
+                <output expression="k" newline="True"/>
+                <assign variable="a" expression="a + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
