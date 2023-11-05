@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 01:49:43 &#214;&#214;"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzAxOjMyOjM3IMOWw5Y7Mjk2Mw=="/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzAxOjQ5OjQzIMOWw5Y7MTszMDc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, i, top" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="top" expression="0"/>
+            <output expression="&quot; write number &quot;" newline="True"/>
+            <input variable="number"/>
+            <while expression="number &gt;= 2">
+                <assign variable="top" expression="top + ( number % 2 ) * ( 10 ^ i )"/>
+                <assign variable="number" expression="number / 2"/>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <assign variable="top" expression="top + ( number * ( 10 ^ i ) )"/>
+            <output expression="top" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

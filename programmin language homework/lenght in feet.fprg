@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-03 11:58:27 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTAzOzExOjIzOjAzIMOWUzsyODI0"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTAzOzExOjU4OjI3IMOWUzsxOzI5NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, c" type="Real" array="False" size=""/>
+            <output expression="&quot; write lenght in feet &quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="c" expression="f / ( 3048 / 100 )"/>
+            <output expression="c &amp; &quot; cm &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

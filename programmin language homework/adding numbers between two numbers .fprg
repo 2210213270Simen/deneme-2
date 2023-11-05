@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 12:20:35 &#214;&#214;"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzEyOjAzOjE5IMOWw5Y7Mjk2Mw=="/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA1OzEyOjIwOjM1IMOWw5Y7MTszMDY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <assign variable="z" expression="0"/>
+            <input variable="x"/>
+            <assign variable="x" expression="x + 1"/>
+            <input variable="y"/>
+            <if expression="x &lt; y">
+                <then>
+                    <do expression="x &lt; y">
+                        <assign variable="z" expression="z + x"/>
+                        <assign variable="x" expression="x + 1"/>
+                    </do>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot; toplam &quot; &amp; z" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

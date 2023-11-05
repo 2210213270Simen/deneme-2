@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-04 07:43:46 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA3OjM1OjQ5IMOWUzsyODQz"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA3OjQzOjQ2IMOWUzsxOzI5NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, x" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="x" expression="1000"/>
+            <if expression="x &lt;= 2000">
+                <then>
+                    <do expression="x &lt;= 2000">
+                        <output expression="x" newline="True"/>
+                        <assign variable="a" expression="a + x"/>
+                        <assign variable="x" expression="x + 2"/>
+                    </do>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot; toplam &quot; &amp; a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

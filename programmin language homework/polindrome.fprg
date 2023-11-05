@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-04 07:33:06 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA3OjEwOjA5IMOWUzsyODMy"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA3OjMzOjA2IMOWUzsxOzI5NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, a" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <assign variable="y" expression="0"/>
+            <assign variable="z" expression="x"/>
+            <if expression="x = 0">
+                <then/>
+                <else>
+                    <do expression="x != 0">
+                        <assign variable="a" expression="x MOD 10"/>
+                        <assign variable="y" expression="y * 10"/>
+                        <assign variable="y" expression="y + a"/>
+                        <assign variable="x" expression="x - a"/>
+                        <assign variable="x" expression="x / 10"/>
+                    </do>
+                </else>
+            </if>
+            <if expression="y = z">
+                <then>
+                    <output expression="&quot; polindrome &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; not polindrome &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

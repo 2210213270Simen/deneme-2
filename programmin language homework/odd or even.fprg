@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-03 09:56:28 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTAzOzA5OjIwOjMyIMOWUzsyODMw"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTAzOzA5OjU2OjI4IMOWUzsxOzI5NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot; write integer &quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="x" expression="Abs (x)"/>
+            <if expression="x % 2 = 0">
+                <then>
+                    <output expression="&quot; number even &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; number odd &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

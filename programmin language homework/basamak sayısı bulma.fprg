@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASPIRE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-04 05:51:53 &#214;S"/>
+        <attribute name="created" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA1OjQyOjI5IMOWUzsyODM3"/>
+        <attribute name="edited" value="QVNQSVJFO0xBUFRPUC05NzQyNlU3MTsyMDIzLTExLTA0OzA1OjUxOjUzIMOWUzsxOzI5NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <assign variable="y" expression="0"/>
+            <assign variable="z" expression="10 ^ y"/>
+            <assign variable="x" expression="x - z"/>
+            <while expression="0 &lt;= x">
+                <assign variable="y" expression="y + 1"/>
+                <assign variable="z" expression="10 ^ y"/>
+                <assign variable="x" expression="x - z"/>
+            </while>
+            <output expression="&quot; basamak say&#305;s&#305; &quot; &amp; y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
